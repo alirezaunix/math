@@ -1,0 +1,68 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Wing Left -->
+    <path
+        android:pathData="M54,54 C46,38 26,30 24,44 C22,54 36,66 54,68 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="30"
+                android:endX="54"
+                android:endY="68"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E9D5FF" />
+                <item android:offset="0.6" android:color="#C084FC" />
+                <item android:offset="1.0" android:color="#67E8F9" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Outer Wing Right -->
+    <path
+        android:pathData="M54,54 C62,38 82,30 84,44 C86,54 72,66 54,68 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="84"
+                android:startY="30"
+                android:endX="54"
+                android:endY="68"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E9D5FF" />
+                <item android:offset="0.6" android:color="#C084FC" />
+                <item android:offset="1.0" android:color="#67E8F9" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Lower Wing Left -->
+    <path
+        android:pathData="M54,66 C44,70 32,74 36,84 C40,90 50,86 54,74 Z"
+        android:fillColor="#F3E8FF" />
+    <!-- Lower Wing Right -->
+    <path
+        android:pathData="M54,66 C64,70 76,74 72,84 C68,90 58,86 54,74 Z"
+        android:fillColor="#F3E8FF" />
+    <!-- Butterfly Body & Antennae -->
+    <path
+        android:pathData="M54,42 L54,78"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,42 C50,34 44,32 42,34 M54,42 C58,34 64,32 66,34"
+        android:strokeWidth="2"
+        android:strokeColor="#F5D0FE"
+        android:strokeLineCap="round" />
+    <!-- Multiplication Symbol in center -->
+    <path
+        android:pathData="M48,52 L60,64 M60,52 L48,64"
+        android:strokeWidth="3.5"
+        android:strokeColor="#581C87"
+        android:strokeLineCap="round" />
+    <!-- Sparkle accents -->
+    <path
+        android:pathData="M54,26 L55,29 L58,30 L55,31 L54,34 L53,31 L50,30 L53,29 Z"
+        android:fillColor="#FDE047" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Shinobu Math",
+  "description": "Interactive multiplication flashcards with Shinobu Kocho butterfly theme, 3D card flips, purple shades, and animated rewards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
